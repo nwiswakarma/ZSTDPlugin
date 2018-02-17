@@ -1,0 +1,24 @@
+{
+	"PluginFileVersion" : 1,
+
+	"FriendlyName" : "ZSTD Plugin",
+	"Version" : 1,
+	"VersionName" : "1.0.0",
+	"CreatedBy" : "", 
+	"CreatedByURL" : "",
+	"Description" : "",
+	"Category" : "Compression",
+	"EnabledByDefault" : true,
+	
+	"Modules" :
+	[		
+		{
+			"Name" : "ZSTDPlugin",
+			"Type" : "Runtime",
+			"LoadingPhase" : "Default",
+			"WhitelistPlatforms" : [ "Win64", "Win32", "Mac" ]
+		},
+
+		
+	]
+}
